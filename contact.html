@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #contact{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    position: relative;
+    width: 100%;
+    background: rgb(153, 118, 118);
+    background-image: url(back\ 3.jpg);
+    color: white;
+}
+.contactdetail{
+    margin-right: 178px;
+    margin-left: -66px
+}
+:root{
+--big-color: #1f1f21;
+--text-color: #fff;
+--main-color: #ffae00;
+--big-font: 7rem;
+--p-font:   1.1rem
+  }
+.btn {
+    display: block;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    background: var(--main-color);
+   color: var(--big-color);
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    text-align: center;
+    padding-top: 14px;
+    margin-top: 28px;
+    transition: all 0.5s;
+    font-size: 16px;   
+}
+</style>
+<body>
+    <section id="contact">
+        <table>
+            <tr>
+                <td colspan="3">
+                    <section class="contactdetail">
+                        <h2>Contact Me</h2>
+                        <hr />
+                        <br />
+                        <br />
+                        <p>Email ID:<a href="abhishekmoc@gmail.com">abhishekmoc@gmail.com</a></p>
+                        <p>Mobile No:6202829500</p>
+
+                    </section>
+                </td>
+                <td>
+                    <section class="contactdetails">
+                        <input type="text" placeholder="Your Name" class="contactsectioninfo">
+                        <br />
+                        <br>
+                        <input type="text" placeholder="Your Email" class="contactdetailsinfo">
+                        <br />
+                        <br>
+                        <textarea name="Your Message" id="textmessage" cols="70" rows="6"
+                            placeholder="Your Comment"></textarea>
+                        <br>
+                        <div >
+                            <a href="" class="btn">Comment</a>
+                        </div>
+                    </section>
+                </td>
+            </tr>
+        </table>
+    </section>
+</body>
+
+</html>
